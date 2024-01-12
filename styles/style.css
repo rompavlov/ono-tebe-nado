@@ -23,7 +23,7 @@
 }
 
 .header__links-list {
-  margin: 44px 36px 40px 26.52px;
+  padding: 44px 0px 40px 0px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -66,6 +66,7 @@
 }
 
 .header__address {
+  padding: 5px 28px 0px 0px;
   justify-self: end;
   color: #000;
   font-family: Raleway;
@@ -90,6 +91,8 @@
   width: 100%;
   background-position: center;
   background-size: cover;
+  height: 757px;
+  flex-shrink: 0;
 }
 
 .cover__title {
@@ -152,11 +155,12 @@
   line-height: 28px;
   text-transform: uppercase;
   word-spacing: 24.2px;
-  margin-right: 79px;
+  margin-right: 50px;
 }
 
 .bet-button {
   border: 1px solid #fff;
+  inset: 655px 50px 51px 0px;
   padding: 12px 32px 11px 31px;
   color: #fff;
   font-family: Raleway;
@@ -173,7 +177,7 @@
 /*Начало секции Lots*/
 
 .lots {
-  padding: 179px 24px 146px 24px;
+  margin: 179px 24px 146px 24px;
 }
 
 .lots__heading {
@@ -184,8 +188,8 @@
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-  margin-bottom: 27px;
-  margin-left: 40px;
+  padding-bottom: 27px;
+  padding-left: 40px;
 }
 
 .lots__card-list {
@@ -193,7 +197,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 25px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
   list-style: none;
   justify-content: center;
 }
@@ -206,10 +210,11 @@
 }
 
 .lots__look-more-link {
-  margin-left: 40px;
   font-weight: 400;
   font-size: 20px;
   line-height: normal;
+  padding-left: 40px;
+  padding-top: 30px;
 }
 
 .card-link {
@@ -275,7 +280,7 @@
 /*Начало секции About*/
 
 .about {
-  margin: 0px 24px 180px 24px;
+  margin: 146px 24px 181px 24px;
   display: grid;
   grid-template-columns: 1fr 2fr;
   column-gap: 72px;
@@ -286,7 +291,8 @@
   justify-content: center;
   width: 240px;
   height: 240px;
-  margin: 35px 72px 320px 47px;
+  margin-top: 35px;
+  margin-left: 47px;
   border-radius: 50%;
   background: #000;
 }
@@ -318,9 +324,12 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
   letter-spacing: 0.2px;
+  text-align: justify;
+
   margin-bottom: 24px;
+
+
 }
 
 /*Конец секции About*/
