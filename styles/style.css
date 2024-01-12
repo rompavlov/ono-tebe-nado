@@ -66,6 +66,7 @@
 }
 
 .header__address {
+  margin-right: 28px;
   padding: 5px 28px 0px 0px;
   justify-self: end;
   color: #000;
@@ -84,7 +85,7 @@
 .cover {
   position: relative;
   z-index: 1;
-  padding: 165px 50px 51px 50px;
+  padding: 165px 0px 50px 50px;
   color: #fff;
   background-image: url("../images/cover.jpg");
   background-repeat: no-repeat;
@@ -283,7 +284,6 @@
   margin: 146px 24px 181px 24px;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  column-gap: 72px;
 }
 
 .about__logo {
@@ -326,10 +326,11 @@
   font-weight: 400;
   letter-spacing: 0.2px;
   text-align: justify;
+  margin-bottom: 30px;
+}
 
-  margin-bottom: 24px;
-
-
+.about__text:last-child {
+  margin-bottom: 0px; 
 }
 
 /*Конец секции About*/
