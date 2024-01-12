@@ -116,13 +116,13 @@
   letter-spacing: 30px;
 }
 
-.aligned-text,
+.aligned-text_left,
 .aligned-text_center,
 .aligned-text_right {
   display: block;
 }
 
-.aligned-text {
+.aligned-text_left {
   text-align: left;
   font-size: 100px;
   line-height: 115%;
@@ -138,6 +138,7 @@
   text-align: right;
   font-size: 100px;
   line-height: 100%;
+  margin-left: 583px;
 }
 
 .cover__description {
